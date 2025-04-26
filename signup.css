@@ -1,0 +1,36 @@
+/* Additional Signup-specific Styles */
+.bank-card[style*="gradient"] .card-chip i {
+    font-size: 2.2rem;
+    opacity: 0.9;
+}
+
+/* Password Strength Meter (Optional) */
+.password-strength {
+    margin-top: 5px;
+    height: 5px;
+    background: #ecf0f1;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.strength-meter {
+    height: 100%;
+    width: 0;
+    background: #e74c3c;
+    transition: width 0.3s, background 0.3s;
+}
+
+/* Terms & Conditions Link */
+.form-options a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.form-options a:hover {
+    text-decoration: underline;
+}
+
+/* Phone Input Styling */
+.input-group input[type="tel"] {
+    letter-spacing: 1px;
+}
